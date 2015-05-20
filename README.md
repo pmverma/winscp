@@ -24,6 +24,7 @@ WinSCP Free SFTP, SCP and FTP client for Windows
 	Upload same as above.
 
 
+###You can try with a ready to install installer under "deployment/winscp572setup.exe"
 For more about on what/how: http://winscp.net/forum/viewtopic.php?t=15351
 
 This is the README file for source code package of WinSCP.
