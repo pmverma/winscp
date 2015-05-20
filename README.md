@@ -2,23 +2,29 @@ WinSCP
 ======
 WinSCP Free SFTP, SCP and FTP client for Windows
 ------------------------------------------------
-//////////////////////////////////////////////////////////////////////////
-
 *This is a customized version of open source winscp 5.7.2.
 ----------------------------------------------------------
 *The revisions from origianl version are as following.
-	1.Renaming files/folders is not allowed
-	2.Duplicating files/folders is not allowed
-	3.Moving files/folders is not allowed
-	4.Deleting files/folders is not allowed
-	5.Drag&Drop withing same panel or side to side panel is not allowed
-		-However you can drop to external windows explorer
 
-Download files/folders with Download menu or right click context menu or F5.
-Upload same as above.
+	1.Renaming files/folders is not allowed
+	
+	2.Duplicating files/folders is not allowed
+	
+	3.Moving files/folders is not allowed
+	
+	4.Deleting files/folders is not allowed
+	
+	5.Drag&Drop withing same panel or side to side panel is not allowed
+	
+		-However you can drop to external windows explorer
+		
+
+	Download files/folders with Download menu or right click context menu or F5.
+
+	Upload same as above.
+
 
 For more about on what/how: http://winscp.net/forum/viewtopic.php?t=15351
-///////////////////////////////////////////////////////////////////////////////
 
 This is the README file for source code package of WinSCP.
 ----------------------------------------------------------
