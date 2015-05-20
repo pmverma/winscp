@@ -4,7 +4,8 @@ WinSCP Free SFTP, SCP and FTP client for Windows
 ------------------------------------------------
 //////////////////////////////////////////////////////////////////////////
 
-<h2> *This is a customized version of open source winscp 5.7.2. </h2>
+*This is a customized version of open source winscp 5.7.2.
+----------------------------------------------------------
 *The revisions from origianl version are as following.
 	1.Renaming files/folders is not allowed
 	2.Duplicating files/folders is not allowed
@@ -18,7 +19,9 @@ Upload same as above.
 
 For more about on what/how: http://winscp.net/forum/viewtopic.php?t=15351
 ///////////////////////////////////////////////////////////////////////////////
+
 This is the README file for source code package of WinSCP.
+----------------------------------------------------------
 
 To build WinSCP you need:
 - Embarcadero C++ Builder XE6 Professional.
