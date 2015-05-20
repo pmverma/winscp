@@ -1,9 +1,9 @@
-WinSCP
-WinSCP Free SFTP, SCP and FTP client for Windows
+<h1> WinSCP </h1>
+<h2>WinSCP Free SFTP, SCP and FTP client for Windows</h2>
 
 //////////////////////////////////////////////////////////////////////////
 
-*This is a customized version of open source winscp 5.7.2.
+<h2> *This is a customized version of open source winscp 5.7.2. </h2>
 *The revisions from origianl version are as following.
 	1.Renaming files/folders is not allowed
 	2.Duplicating files/folders is not allowed
