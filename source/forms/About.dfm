@@ -6,57 +6,81 @@ object AboutDialog: TAboutDialog
   BorderIcons = [biSystemMenu, biMinimize, biMaximize, biHelp]
   BorderStyle = bsDialog
   Caption = 'About application'
-  ClientHeight = 531
-  ClientWidth = 394
+  ClientHeight = 706
+  ClientWidth = 493
   Color = clBtnFace
   ParentFont = True
   OldCreateOrder = True
   Position = poOwnerFormCenter
   DesignSize = (
-    394
-    531)
-  PixelsPerInch = 96
-  TextHeight = 13
+    493
+    706)
+  PixelsPerInch = 120
+  TextHeight = 16
   object ApplicationLabel: TLabel
-    Left = 72
-    Top = 12
-    Width = 52
-    Height = 13
+    Left = 90
+    Top = 15
+    Width = 62
+    Height = 16
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Caption = 'Application'
   end
   object VersionLabel: TLabel
-    Left = 72
-    Top = 28
-    Width = 127
-    Height = 13
+    Left = 90
+    Top = 35
+    Width = 155
+    Height = 16
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Caption = 'Version 2.0.0 (Build 12) XX'
   end
   object WinSCPCopyrightLabel: TLabel
-    Left = 72
-    Top = 56
-    Width = 180
-    Height = 13
+    Left = 90
+    Top = 136
+    Width = 214
+    Height = 16
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Caption = 'Copyright '#169' 2000-2003 Martin Prikryl'
   end
   object ProductSpecificMessageLabel: TLabel
-    Left = 72
-    Top = 100
-    Width = 277
-    Height = 13
+    Left = 90
+    Top = 192
+    Width = 333
+    Height = 16
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Caption = 'To send comments and report bugs use support forum at:'
   end
   object TranslatorLabel: TLabel
-    Left = 72
-    Top = 144
-    Width = 74
-    Height = 13
+    Left = 90
+    Top = 241
+    Width = 89
+    Height = 16
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Caption = 'TranslatorLabel'
   end
   object Image: TImage
-    Left = 8
-    Top = 12
-    Width = 49
-    Height = 32
+    Left = 10
+    Top = 15
+    Width = 61
+    Height = 40
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Center = True
     Picture.Data = {
       055449636F6E0000010007001010000001002000680400007600000018180000
@@ -3487,63 +3511,105 @@ object AboutDialog: TAboutDialog
     Transparent = True
   end
   object Label3: TLabel
-    Left = 72
-    Top = 303
-    Width = 91
-    Height = 13
+    Left = 90
+    Top = 430
+    Width = 107
+    Height = 16
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Anchors = [akLeft, akBottom]
     Caption = 'Portions copyright:'
+    ExplicitTop = 407
   end
   object RegistrationLabel: TLabel
-    Left = 72
-    Top = 188
-    Width = 127
-    Height = 13
+    Left = 90
+    Top = 292
+    Width = 154
+    Height = 16
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Anchors = [akLeft, akBottom]
     Caption = 'This product is licensed to:'
+    ExplicitTop = 269
+  end
+  object Label1: TLabel
+    Left = 90
+    Top = 59
+    Width = 141
+    Height = 16
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = 'Customized and Built by:'
   end
   object HomepageLabel: TStaticText
-    Left = 72
-    Top = 72
-    Width = 128
-    Height = 17
+    Left = 90
+    Top = 156
+    Width = 155
+    Height = 20
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Caption = 'http://XXXXXXwinscp.net/'
     TabOrder = 2
     TabStop = True
   end
   object ForumUrlLabel: TStaticText
-    Left = 72
-    Top = 116
-    Width = 148
-    Height = 17
+    Left = 90
+    Top = 212
+    Width = 178
+    Height = 20
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Caption = 'http://XXXXwinscp.net/forum/'
     TabOrder = 3
     TabStop = True
   end
   object TranslatorUrlLabel: TStaticText
-    Left = 72
-    Top = 160
-    Width = 148
-    Height = 17
+    Left = 90
+    Top = 261
+    Width = 178
+    Height = 20
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Caption = 'http://XXXXwinscp.net/forum/'
     TabOrder = 4
     TabStop = True
   end
   object ThirdPartyPanel: TPanel
-    Left = 72
-    Top = 321
-    Width = 312
-    Height = 168
+    Left = 90
+    Top = 455
+    Width = 390
+    Height = 203
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Anchors = [akLeft, akRight, akBottom]
     BevelKind = bkTile
     BevelOuter = bvNone
     TabOrder = 7
+    ExplicitTop = 432
   end
   object OKButton: TButton
-    Left = 227
-    Top = 498
-    Width = 75
-    Height = 25
+    Left = 284
+    Top = 665
+    Width = 94
+    Height = 31
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Anchors = [akRight, akBottom]
     Cancel = True
     Caption = 'OK'
@@ -3551,64 +3617,118 @@ object AboutDialog: TAboutDialog
     ModalResult = 1
     TabOrder = 0
     OnMouseDown = OKButtonMouseDown
+    ExplicitTop = 623
   end
   object LicenseButton: TButton
-    Left = 72
-    Top = 498
-    Width = 75
-    Height = 25
+    Left = 90
+    Top = 665
+    Width = 94
+    Height = 31
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Anchors = [akLeft, akBottom]
     Caption = '&License...'
     TabOrder = 6
     OnClick = LicenseButtonClick
+    ExplicitTop = 623
   end
   object HelpButton: TButton
-    Left = 309
-    Top = 498
-    Width = 75
-    Height = 25
+    Left = 386
+    Top = 665
+    Width = 94
+    Height = 31
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Anchors = [akRight, akBottom]
     Caption = '&Help'
     TabOrder = 1
     OnClick = HelpButtonClick
+    ExplicitTop = 623
   end
   object RegistrationBox: TPanel
-    Left = 72
-    Top = 206
-    Width = 312
-    Height = 89
+    Left = 90
+    Top = 316
+    Width = 390
+    Height = 111
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
     Anchors = [akLeft, akTop, akRight]
     BevelKind = bkTile
     BevelOuter = bvNone
     TabOrder = 5
     DesignSize = (
-      308
-      85)
+      386
+      107)
     object RegistrationSubjectLabel: TLabel
-      Left = 8
-      Top = 8
-      Width = 239
-      Height = 65
+      Left = 10
+      Top = 10
+      Width = 295
+      Height = 81
+      Margins.Left = 4
+      Margins.Top = 4
+      Margins.Right = 4
+      Margins.Bottom = 4
       Anchors = [akLeft, akTop, akRight]
       AutoSize = False
       Caption = 'Someone'#13#10'Somewhere, some city'
       WordWrap = True
+      ExplicitWidth = 299
     end
     object RegistrationLicensesLabel: TLabel
-      Left = 8
-      Top = 43
-      Width = 106
-      Height = 13
+      Left = 10
+      Top = 54
+      Width = 129
+      Height = 16
+      Margins.Left = 4
+      Margins.Top = 4
+      Margins.Right = 4
+      Margins.Bottom = 4
       Caption = 'Number of Licenses: X'
     end
     object RegistrationProductIdLabel: TStaticText
-      Left = 8
-      Top = 65
-      Width = 148
-      Height = 17
+      Left = 10
+      Top = 81
+      Width = 160
+      Height = 20
+      Margins.Left = 4
+      Margins.Top = 4
+      Margins.Right = 4
+      Margins.Bottom = 4
       Caption = 'Product ID: xxxx-xxxx-xxxxx'
       TabOrder = 0
       OnClick = RegistrationProductIdLabelClick
     end
+  end
+  object StaticText1: TStaticText
+    Left = 90
+    Top = 103
+    Width = 204
+    Height = 20
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = 'http://www.diracetechnology.com/'
+    TabOrder = 8
+    TabStop = True
+  end
+  object StaticText2: TStaticText
+    Left = 90
+    Top = 84
+    Width = 146
+    Height = 20
+    Margins.Left = 4
+    Margins.Top = 4
+    Margins.Right = 4
+    Margins.Bottom = 4
+    Caption = 'DIR-ACE Technology Ltd.'
+    TabOrder = 9
+    TabStop = True
   end
 end

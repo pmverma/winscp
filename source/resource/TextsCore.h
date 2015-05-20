@@ -445,4 +445,12 @@
 
 // 7xxx used by errors as secondary sequence
 
+//This following is defined for build by DAT
+
+#define BUILD_OFFICIAL			1
+//following are not used
+#define BUILDER_DAT				8888
+#define	BUILDER_DAT_URL			8889
+
+
 #endif // TextsCore

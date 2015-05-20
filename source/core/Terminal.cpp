@@ -3544,8 +3544,11 @@ void __fastcall TTerminal::RenameFile(const UnicodeString FileName,
   const UnicodeString NewName)
 {
   LogEvent(FORMAT(L"Renaming file \"%s\" to \"%s\".", (FileName, NewName)));
-  DoRenameFile(FileName, NewName, false);
-  ReactOnCommand(fsRenameFile);
+//  DoRenameFile(FileName, NewName, false);
+//  ReactOnCommand(fsRenameFile);
+  LogEvent(L"Renaming file is not allowed in this version of WinSCP.");
+  LogEvent(L"Please use a shell terminal or other tools to rename.");
+
 }
 //---------------------------------------------------------------------------
 void __fastcall TTerminal::RenameFile(const TRemoteFile * File,

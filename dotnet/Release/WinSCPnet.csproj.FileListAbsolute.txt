@@ -1,0 +1,8 @@
+D:\Winscp\v4\dotnet\Release\WinSCPnet.csprojResolveAssemblyReference.cache
+D:\Winscp\v4\dotnet\Release\WinSCPnet.dll.config
+D:\Winscp\v4\dotnet\Release\WinSCPnet.dll
+D:\Winscp\v4\dotnet\Release\WinSCPnet.pdb
+D:\Winscp\v5\dotnet\Release\WinSCPnet.csprojResolveAssemblyReference.cache
+D:\Winscp\v5\dotnet\Release\WinSCPnet.dll.config
+D:\Winscp\v5\dotnet\Release\WinSCPnet.dll
+D:\Winscp\v5\dotnet\Release\WinSCPnet.pdb

@@ -84,9 +84,9 @@ __fastcall TScpCommanderForm::TScpCommanderForm(TComponent* Owner)
   LocalPathComboBox->SubMenuImages = FSystemImageList;
   LocalPathComboUpdateDrives();
 
-  LocalBackButton->LinkSubitems = HistoryMenu(osLocal, true)->Items;
+  LocalBackButton->LinkSubitems = HistoryMenu(osLocal, false)->Items;
   LocalForwardButton->LinkSubitems = HistoryMenu(osLocal, false)->Items;
-  RemoteBackButton->LinkSubitems = HistoryMenu(osRemote, true)->Items;
+  RemoteBackButton->LinkSubitems = HistoryMenu(osRemote, false)->Items;
   RemoteForwardButton->LinkSubitems = HistoryMenu(osRemote, false)->Items;
 
   TopDock->PopupMenu = NonVisualDataModule->CommanderBarPopup;

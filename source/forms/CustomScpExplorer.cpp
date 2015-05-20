@@ -5256,7 +5256,8 @@ void __fastcall TCustomScpExplorerForm::FileControlDDDragEnter(
   {
     Accept = true;
   }
-
+	
+	Accept = false;
   FDDTargetControl = dynamic_cast<TControl*>(Sender);
   assert(FDDTargetControl != NULL);
 }

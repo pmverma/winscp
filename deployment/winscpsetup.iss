@@ -572,7 +572,7 @@ end;
 
 procedure ImageClick(Sender: TObject);
 begin
-  WizardForm.ActiveControl := TWinControl(TControl(Sender).Tag);
+//  WizardForm.ActiveControl := TWinControl(TControl(Sender).Tag);
 end;
 
 type
@@ -880,7 +880,7 @@ begin
   Image.ReplaceColor := $FF00FF;
   Image.ReplaceWithColor := InterfacePage.Surface.Color;
   Image.OnClick := @ImageClick;
-  Image.Tag := Integer(CommanderRadioButton);
+  //Image.Tag := Integer(CommanderRadioButton);
 
   Caption := TLabel.Create(InterfacePage);
   Caption.WordWrap := True;
@@ -912,7 +912,7 @@ begin
   Image.ReplaceColor := $C020E0;
   Image.ReplaceWithColor := InterfacePage.Surface.Color;
   Image.OnClick := @ImageClick;
-  Image.Tag := Integer(ExplorerRadioButton);
+  //Image.Tag := Integer(ExplorerRadioButton);
 
   Caption := TLabel.Create(InterfacePage);
   Caption.WordWrap := True;
